@@ -1,0 +1,46 @@
+body {
+    background: url("/res/img/nightskystar.gif");
+    color: rgb(5, 255, 234);
+    font-family: Delius;
+}
+
+a {
+    color: unset;
+}
+
+#mainHead {
+    font-size: 32px;
+    margin: auto;
+    margin-bottom: -30px;
+    text-align: center;
+    -webkit-text-stroke: 0.75px rgb(143, 46, 255);
+}
+
+#subHead {
+    margin: auto;
+    text-align: center;
+    color: rgb(255, 252, 69);
+}
+
+#subHead h3 {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.425);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 15px;
+}
+
+table {
+    margin: auto;
+    margin-top: 60px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid yellow;
+    background-color: rgba(0, 0, 0, 0.425);
+    text-align: center;
+    padding: 8px;
+}

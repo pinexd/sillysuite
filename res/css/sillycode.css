@@ -1,0 +1,50 @@
+body {
+    background-image: url("/res/img/TILES01.png");
+    background-size: 10%;
+    font-family: Delius;
+}
+
+#mainHead {
+    color: rgb(18, 35, 128);
+    font-size: 32px;
+    margin: auto;
+    margin-bottom: -30px;
+    text-align: center;
+    -webkit-text-stroke: 0.05px rgba(255, 255, 255, 0.856);
+}
+
+#primaryContent input, button {
+    display: inline-block;
+    margin: auto;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+#primaryContent {
+    text-align: center;
+}
+
+#colorLabel {
+    margin: auto;
+    color: white;
+}
+
+#outputHeader {
+    color: rgb(123, 255, 83);
+}
+
+div#outputContainer {
+    display: none;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#output {
+    text-align: center;
+    background-color: #305d3bad;
+    border-radius: 20px;
+    display: inline-block;
+    color: #ffffff;
+    padding: 10px;
+}
+
