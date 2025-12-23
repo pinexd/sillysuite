@@ -9,7 +9,11 @@ def process_script(event):
             
             
             # Output Formatting
-            result = f"[color={color_val}]{msg_val}[/color]"
+            if "\\" not in msg_val:
+                result = f"[color={color_val}]{msg_val}[/color]"
+            else:
+                msg_val = msg_val.replace('\\', '\\\\')
+                result = f"[color={color_val}]{msg_val}[/color]"
             
             # Actually output
             output.innerText = result
