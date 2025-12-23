@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+        <title>sillycode format helper</title>
+        <meta charset="UTF-8">
+        <link href="/sillysuite/res/css/sillycodeformat.css" rel="stylesheet" type="text/css" media="all">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- PyScript -->
+        <link rel="stylesheet" href="https://pyscript.net/releases/2025.11.2/core.css">
+        <script type="module" src="https://pyscript.net/releases/2025.11.2/core.js"></script>
+    </head>
+    <body>
+        <div id="mainHead">
+            <h1>sillycode format helper</h1>
+        </div>
+        <div id="primaryContent">
+            <div id="formatGroup">
+                <input type="checkbox" id="boldF" value="#FBFF00">
+                <label id="boldLabel" for="boldF">Bold</label>
+                
+                <input type="checkbox" id="italic" value="#FBFF00">
+                <label id="italicLabel" for="italic">Italics</label>
+                
+                <input type="checkbox" id="underline" value="#FBFF00">
+                <label id="underlineLabel" for="underline">Underline</label>
+                
+                <input type="checkbox" id="strikethrough" value="#FBFF00">
+                <label id="strikethroughLabel" for="strikethrough">Strikethrough</label>
+
+                <input type="checkbox" id="url" value="#FBFF00">
+                <label id="urlLabel" for="url">Link</label>
+                
+            </div>
+            <input type="text" id="msg" placeholder="Text to Format">
+            <button id="run-btn" type="button" py-click="process_script">Generate Sillycode :3</button>
+        </div>
+        <script type="py" src="/sillysuite/res/py/sillyformat.py"></script>
+        <div id="outputContainer">
+            <h1 id="outputHeader">sillycode output :3</h1>
+            <div id="output"></div>    
+        </div>
+    </body>
+
+</html>
